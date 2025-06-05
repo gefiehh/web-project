@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 30px 40px 0 40px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.nav {
+    flex: 1;
+}
+
+    .nav a {
+        margin: 0 20px;
+        text-decoration: none;
+        color: #111;
+        font-size: 22px;
+    }
+
+.login {
+    background: #000;
+    color: #fff;
+    padding: 12px 36px;
+    font-size: 28px;
+    border-radius: 2px;
+    margin-left: 30px;
+    font-family: 'Comic Sans MS', cursive;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    margin: 40px 0 0 60px;
+}
+
+.faq {
+    max-width: 600px;
+}
+
+    .faq h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .faq p, .faq li {
+        font-size: 20px;
+    }
+
+    .faq .section {
+        margin-bottom: 30px;
+    }
+
+    .faq .section-title {
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
+    .faq .q {
+        font-weight: bold;
+    }
+
+    .faq .a {
+        margin-bottom: 10px;
+    }
+
+.img {
+    margin-left: 40px;
+}
+
+    .img img {
+        max-width: 300px;
+        border-radius: 8px;
+    }
+/* Модальное окно */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    min-width: 300px;
+}
+
+    .modal-content h2 {
+        margin-top: 0;
+    }
+
+.close {
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.login-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.login-form button {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
