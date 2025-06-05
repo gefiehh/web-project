@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>СтудПортфолио — Главная</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo">СтудПортфолио</div>
+    <div class="nav">
+      <a href="website1.html">Главная</a>
+      <a href="website2.html">Частые вопросы</a>
+      <a href="website3.html">Ваше портфолио</a>
+    </div>
+    <div class="login" id="loginBtn">Вход</div>
+  </div>
+  <div class="main">
+    <div class="main-text">
+      <h1>Создайте портфолио онлайн бесплатно со СтудПортфолио</h1>
+      <p>
+        Расскажите о себе, своих достижениях, соберите все свои дипломы в одном месте, создав уникальное портфолио для привлечения работодателей, подтверждения ваших компетенций и заслуг.
+      </p>
+      <button class="btn" onclick="location.href='website3.html'">Создать портфолио</button>
+    </div>
+    <div class="main-img">
+      <img src="image1.jpg" alt="Help">
+    </div>
+  </div>
+
+  <!-- Модальное окно входа -->
+  <div class="modal" id="loginModal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>Вход</h2>
+      <form class="login-form">
+        <input type="text" placeholder="Логин" required>
+        <input type="password" placeholder="Пароль" required>
+        <button type="submit">Войти</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
